@@ -5,8 +5,10 @@ using UnityEngine;
 public class Collectible : MonoBehaviour
 {
 
-    public delegate void CollectibleEvent();
-    public static event CollectibleEvent OnPickup; 
+    public delegate void CollectibleEvent(int points);
+    public static event CollectibleEvent OnPickup;
+
+    [SerializeField] private int points;
 
     private void OnTriggerEnter(Collider collider)
     {
@@ -14,7 +16,7 @@ public class Collectible : MonoBehaviour
         if(player != null)
         {
             // TODO: Have the player's score update using this event.
-            //OnPickup();
+            OnPickup(points);
             Destroy(this.gameObject);
         }
     }
