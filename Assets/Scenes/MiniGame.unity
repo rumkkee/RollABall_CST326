@@ -347,7 +347,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e36df2616ca3db40a216b89f3fbfbe1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetObject: {fileID: 1411121563}
+  _targetObject: {fileID: 1411121563}
 --- !u!1001 &363342287
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1393,7 +1393,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7dbe7749ef6547744ab5c500d2324f33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 30
+  _speed: 30
 --- !u!1001 &1500759404
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2313,7 +2313,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e34f22e0403edb4da8dbcdffb831a2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1703462037}
+  _scoreText: {fileID: 1703462037}
 --- !u!114 &2003482477
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2384,8 +2384,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c002fe620db75e84e806ee38bcba796e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WinPanel: {fileID: 1549768725}
-  scoreToWin: 8
+  _winPanel: {fileID: 1549768725}
+  _scoreToWin: 8
 --- !u!1 &2026167442
 GameObject:
   m_ObjectHideFlags: 0

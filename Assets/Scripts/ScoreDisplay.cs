@@ -6,7 +6,7 @@ using TMPro;
 
 public class ScoreDisplay : MonoBehaviour
 {
-    [SerializeField] TextMeshProUGUI scoreText;
+    [SerializeField] private TextMeshProUGUI _scoreText;
 
     private void Awake()
     {
@@ -15,6 +15,6 @@ public class ScoreDisplay : MonoBehaviour
 
     private void UpdateScoreDisplay(int newScore)
     {
-        scoreText.text = newScore.ToString();
+        _scoreText.text = newScore.ToString();
     }
 }

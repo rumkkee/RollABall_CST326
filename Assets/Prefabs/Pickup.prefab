@@ -147,7 +147,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed40dd0dc18423d4cb2f8ee807bd9521, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationAmount: {x: 10, y: 30, z: 60}
+  _rotationAmount: {x: 20, y: 40, z: 80}
 --- !u!114 &1631052192093403943
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -160,4 +160,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33ca9f02d9a34a540ae91970c87a1e1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  points: 1
+  _points: 1

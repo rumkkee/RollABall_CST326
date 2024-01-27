@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    [SerializeReference] private GameObject WinPanel;
-    [SerializeField] private int scoreToWin;
+    [SerializeReference] private GameObject _winPanel;
+    [SerializeField] private int _scoreToWin;
 
     private void Awake()
     {
@@ -14,9 +14,9 @@ public class GameManager : MonoBehaviour
 
     private void CheckWinCondition(int currentScore)
     {
-        if(currentScore >= scoreToWin)
+        if(currentScore >= _scoreToWin)
         {
-            WinPanel.SetActive(true);
+            _winPanel.SetActive(true);
         }
     }
 }
